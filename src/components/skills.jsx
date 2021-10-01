@@ -50,7 +50,7 @@ class Skills extends Component {
         }
         return (
             <React.Fragment>
-                <div className='container-fluid'>
+                <div id="skills" className='container-fluid'>
                     <hr />
                     <h2 className='display-4'>My Skills</h2>
                     <hr />

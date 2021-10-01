@@ -44,6 +44,8 @@ html {
 /* Content CSS */
 .navbar {
   width: 100%;
+  backdrop-filter: blur(5px);
+  background-color: rgba(0,0,0,0.2);
 }
 
 .navbar-brand {
@@ -54,6 +56,7 @@ html {
   font-size: larger;
   margin-left: 15px;
   margin-right: 15px;
+  font-weight: bolder;
 }
 
 body {
@@ -145,10 +148,6 @@ p {
   margin: 15px;
 }
 
-.gifs {
-  background-color: white;
-}
-
 #ttt {
   width: 50%;
 }
@@ -157,13 +156,64 @@ p {
   background-color: black;
 }
 
-.leftpr {
-  margin-left: 3rem !important;
-  border: 1px solid black;
+#projects {
+  margin: auto;
 }
 
-.rightpr {
-  border: 1px solid black;
+input, textarea {
+  border: 2px solid darkorchid;
+  border-radius: 15px;
+  margin: 3px;
+  width: 50%;
+  height: 40px;
+  padding: 5px;
+}
+
+textarea {
+  height: 10rem;
+}
+
+.contact_img {
+  margin: 3px;
+  margin-left: 20%;
+}
+
+#name {
+  color: green;
+  font-weight: 600;
+}
+
+#email {
+  color: #FF4136;
+  font-weight: 600;
+}
+
+#msg {
+  font-weight: 600;
+}
+
+#submit_btn {
+  background-color: darkorchid;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+  width: 100px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.desc {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.gifs-left {
+  background-color: white;
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+.gifs-right {
+  background-color: white;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }
 
 .footer {

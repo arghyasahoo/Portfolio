@@ -5,18 +5,18 @@ import NavBar from './components/header';
 import Intro from './components/intro';
 import Projects from './components/projects';
 import Skills from './components/skills';
+import Contact from './components/contact';
 
 function App() {
   return (
     <div className="App">
-      <div className="container-fluid">
-        <NavBar />
-        <Intro />
-        <About />
-        <Skills />
-        <Projects />
-        <Footer />
-      </div>
+      <NavBar />
+      <Intro />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 }
