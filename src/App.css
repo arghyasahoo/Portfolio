@@ -84,7 +84,7 @@ h3 {
 
 .greeting {
   font-size: 2rem;
-  opacity: 75%;
+  opacity: 75% !important;
 }
 
 .port_name {
@@ -92,7 +92,7 @@ h3 {
 }
 
 .course {
-  opacity: 80%;
+  opacity: 80% !important;
 }
 
 p {
