@@ -1,0 +1,379 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+html {
+  width: fit-content;
+}
+
+.App {
+  color: white;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #FF3CAC;
+  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* Components CSS */
+
+
+/* Content CSS */
+.navbar {
+  width: 100%;
+}
+
+.navbar-brand {
+  margin-left: 25px;
+}
+
+.nav-link {
+  font-size: larger;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+body {
+  width: 100%;
+}
+
+h1 {
+  text-align: left !important;
+  animation: fadein 2s;
+}
+
+h2 {
+  font-weight: bolder;
+  font-family: 'Nunito', sans-serif;
+}
+
+h3 {
+  margin-top: 10px;
+  font-weight: bolder;
+}
+
+.intro {
+  padding: 10rem !important;
+}
+
+.greeting {
+  font-size: 2rem;
+  opacity: 75%;
+}
+
+.port_name {
+  font-size: 90px;
+}
+
+.course {
+  opacity: 80%;
+}
+
+p {
+  font-size: 20px;
+}
+
+#para_name {
+  color: #f9ff3d;
+  font-weight: 700;
+}
+
+#para_course {
+  color: #49fc03;
+  font-weight: 700;
+}
+
+.left_about {
+  text-align: left;
+  width: 40%;
+  margin-left: 15rem;
+}
+
+.right_about {
+  text-align: right;
+  width: 40%;
+  margin-left: 55rem;
+}
+
+.card-title {
+  text-align: left;
+  color: black;
+}
+
+.card{
+  display: inline-block;
+  padding: 5rem;
+  width: 300px;
+}
+
+.about_heading {
+  font-family: 'Gemunu Libre', sans-serif;
+  border-bottom: 2px solid currentColor;
+  display: inline-block;
+  line-height: 0.85;
+  text-shadow:
+    2px 2px black,
+    2px -2px black,
+    -2px 2px black,
+    -2px -2px black;
+}
+
+.projects {
+  margin: 15px;
+}
+
+.gifs {
+  background-color: white;
+}
+
+#ttt {
+  width: 50%;
+}
+
+#tic-tac-toe {
+  background-color: black;
+}
+
+.leftpr {
+  margin-left: 3rem !important;
+  border: 1px solid black;
+}
+
+.rightpr {
+  border: 1px solid black;
+}
+
+.footer {
+  font-family: "Poppins", sans-serif;
+  place-items: center;
+  background-color: #21D4FD;
+  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+}
+
+.fab {
+  color: black;
+}
+
+/* Start of Button CSS */
+
+.multi-button {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  --border-size: 0.125rem;
+  --duration: 250ms;
+  --ease: cubic-bezier(0.215, 0.61, 0.355, 1);
+  --font-family: 'Nunito';
+  --color-primary: white;
+  --color-secondary: black;
+  --color-tertiary: dodgerblue;
+  --shadow: rgba(0, 0, 0, 0.1);
+  --space: 1rem;
+}
+
+.language {
+  color: black;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  --color-secondary: #2ECC40
+}
+
+.frontend {
+  color: black;
+  --color-secondary: #FF4136
+}
+
+.backend {
+  color: black;
+  --color-secondary: #001f3f
+}
+
+.others {
+  color: black;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  --color-secondary: #39CCCC
+}
+
+.text-white {
+  color: black;
+}
+
+.multi-button button {
+  flex-grow: 1;
+  cursor: pointer;
+  position: relative;
+  padding:
+    calc(var(--space) / 1.125)
+    var(--space)
+    var(--space);
+  border: var(--border-size) solid black;
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
+  font-size: 1.5rem;
+  font-family: var(--font-family);
+  text-transform: lowercase;
+  text-shadow: var(--shadow) 2px 2px;
+  transition: flex-grow var(--duration) var(--ease);
+}
+
+.multi-button button + button {
+  border-left: var(--border-size) solid black;
+  margin-left: calc(var(--border-size) * -1);
+}
+
+.multi-button button:hover,
+.multi-button button:focus {
+  flex-grow: 2;
+  color: white;
+  outline: none;
+  text-shadow: none;
+  background-color: var(--color-secondary);
+}
+
+.multi-button button:focus {
+  outline: var(--border-size) dashed var(--color-primary);
+  outline-offset: calc(var(--border-size) * -3);
+}
+
+.multi-button:hover button:focus:not(:hover) {
+  flex-grow: 1;
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
+  outline-color: var(--color-tertiary);
+}
+
+.multi-button button:active {
+  transform: translateY(var(--border-size));
+}
+
+/* End of Button CSS */
+
+
+/* Start of Social CSS */
+
+*:focus,
+*:active {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.wrapper {
+  display: inline-flex;
+}
+
+.wrapper .icon {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background-color: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background-color: #3b5999;
+  color: #ffffff;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background-color: #46c1f6;
+  color: #ffffff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background-color: #e1306c;
+  color: #ffffff;
+}
+
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
+  background-color: #de463b;
+  color: #ffffff;
+}
+
+/* End of Social CSS */
