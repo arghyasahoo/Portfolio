@@ -185,7 +185,6 @@ p {
 /* Start of Button CSS */
 
 .multi-button {
-  display: flex;
   width: 70%;
   margin: auto;
   --border-size: 0.125rem;
