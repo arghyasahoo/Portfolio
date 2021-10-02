@@ -12,7 +12,7 @@ class NavBar extends Component {
     render() {
         return (
             <React.Fragment>
-                <nav class="navbar navbar-expand-lg navbar-light">
+                <nav class="navbar navbar-expand-lg fixed-top navbar-light">
                     <div class="container-fluid">
                         <button
                             class="navbar-toggler"

@@ -178,8 +178,7 @@ p {
 .footer {
   font-family: "Poppins", sans-serif;
   place-items: center;
-  background-color: #21D4FD;
-  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+  background-color: #020c1b;
 }
 
 .fab {
@@ -242,7 +241,7 @@ p {
   border: var(--border-size) solid black;
   color: var(--color-secondary);
   background-color: var(--color-primary);
-  font-size: 1rem;
+  font-size: 1.2vw;
   font-family: var(--font-family);
   text-transform: lowercase;
   text-shadow: var(--shadow) 2px 2px;
