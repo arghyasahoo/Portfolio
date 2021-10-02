@@ -87,11 +87,15 @@ h3 {
 }
 
 .greeting {
-  font-size: 2rem;
+  font-size: 2vw;
 }
 
 .port_name {
-  font-size: 6rem;
+  font-size: 5vw;
+}
+
+.course {
+  font-size: 3vw;
 }
 
 .greeting, .course, .port_name {
