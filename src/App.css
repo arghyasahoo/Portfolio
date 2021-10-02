@@ -84,15 +84,10 @@ h3 {
 
 .greeting {
   font-size: 2rem;
-  opacity: 75% !important;
 }
 
 .port_name {
   font-size: 90px;
-}
-
-.course {
-  opacity: 80% !important;
 }
 
 p {
