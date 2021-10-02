@@ -185,6 +185,7 @@ p {
 /* Start of Button CSS */
 
 .multi-button {
+  display: flex;
   width: 70%;
   margin: auto;
   --border-size: 0.125rem;
@@ -237,7 +238,7 @@ p {
   border: var(--border-size) solid black;
   color: var(--color-secondary);
   background-color: var(--color-primary);
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-family: var(--font-family);
   text-transform: lowercase;
   text-shadow: var(--shadow) 2px 2px;
