@@ -8,8 +8,7 @@
   color: white;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  background-color: #FF3CAC;
-  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);  
+  background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);
 }
 
 .App-logo {
@@ -49,10 +48,15 @@
 }
 
 .nav-link {
+  color: white !important;
   font-size: larger;
   margin-left: 15px;
   margin-right: 15px;
   font-weight: bolder;
+}
+
+.nav-link:active {
+  color: cyan;
 }
 
 body {
@@ -119,11 +123,12 @@ p {
 
 .card-title {
   text-align: left;
-  color: black;
+  color: white;
 }
 
 .card{
   display: inline-block;
+  background-color: rgba(0,0,0,0.2);
   padding: 5rem;
   width: 300px;
 }
@@ -140,10 +145,6 @@ p {
     -2px -2px black;
 }
 
-.projects {
-  margin: 15px;
-}
-
 #ttt {
   width: 50%;
 }
@@ -154,6 +155,12 @@ p {
 
 #projects {
   margin: auto;
+  padding: 10px;
+}
+
+.pr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 input, textarea {
@@ -199,17 +206,8 @@ textarea {
 }
 
 .desc {
+  background-color: rgba(0,0,0,0.3);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-}
-
-.gifs-left {
-  background-color: white;
-  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
-}
-
-.gifs-right {
-  background-color: white;
-  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }
 
 .footer {
@@ -233,7 +231,7 @@ textarea {
   --duration: 250ms;
   --ease: cubic-bezier(0.215, 0.61, 0.355, 1);
   --font-family: 'Nunito';
-  --color-primary: white;
+  --color-primary: #010b0c;
   --color-secondary: black;
   --color-tertiary: dodgerblue;
   --shadow: rgba(0, 0, 0, 0.1);
@@ -244,24 +242,24 @@ textarea {
   color: black;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  --color-secondary: #2ECC40
+  --color-secondary: #2ECC40;
 }
 
 .frontend {
   color: black;
-  --color-secondary: #FF4136
+  --color-secondary: #FF4136;
 }
 
 .backend {
   color: black;
-  --color-secondary: #001f3f
+  --color-secondary: #bf26bf
 }
 
 .others {
   color: black;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-  --color-secondary: #39CCCC
+  --color-secondary: #39CCCC;
 }
 
 .text-white {
