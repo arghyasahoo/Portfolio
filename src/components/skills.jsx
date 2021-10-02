@@ -36,16 +36,16 @@ class Skills extends Component {
 
     render() {
         let skillComp;
-        if (this.state.option == 1) {
+        if (this.state.option === 1) {
             skillComp = <LanguageSkills />;
         }
-        else if (this.state.option == 2) {
+        else if (this.state.option === 2) {
             skillComp = <FrontendSkills />;
         }
-        else if (this.state.option == 3) {
+        else if (this.state.option === 3) {
             skillComp = <BackendSkills />;
         }
-        else if (this.state.option == 4) {
+        else if (this.state.option === 4) {
             skillComp = <OtherSkills />;
         }
         return (

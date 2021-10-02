@@ -43,6 +43,10 @@
   background-color: rgba(0,0,0,0.2);
 }
 
+.fa-bars {
+  color: white;
+}
+
 .navbar-brand {
   margin-left: 2%;
 }
@@ -80,7 +84,6 @@ h3 {
 
 .intro {
   padding-top: 8%;
-  padding-left: 10%;
 }
 
 .greeting {
@@ -89,6 +92,10 @@ h3 {
 
 .port_name {
   font-size: 90px;
+}
+
+.greeting, .course, .port_name {
+  padding-left: 10%;
 }
 
 p {

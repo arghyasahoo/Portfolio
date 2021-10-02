@@ -9,7 +9,7 @@ import Contact from './components/contact';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container-fluid">
       <NavBar />
       <Intro />
       <About />

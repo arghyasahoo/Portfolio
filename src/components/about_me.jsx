@@ -4,7 +4,7 @@ class About extends Component {
     render() {
         return (
             <React.Fragment>
-                <div id="about_me" className='container-fluid p-5'>
+                <div id="about_me" className='container-fluid'>
                     <hr />
                     <h2 className='display-4'>About Me</h2>
                     <hr />
