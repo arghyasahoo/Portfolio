@@ -4,10 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-html,body{
-  overflow-x: hidden;
-}
-
 .App {
   color: white;
   text-align: center;
@@ -48,7 +44,7 @@ html,body{
 }
 
 .navbar-brand {
-  margin-left: 25px;
+  margin-left: 2%;
 }
 
 .nav-link {
@@ -83,7 +79,8 @@ h3 {
 }
 
 .intro {
-  padding: 10rem !important;
+  padding-top: 8%;
+  padding-left: 10%;
 }
 
 .greeting {
@@ -111,13 +108,13 @@ p {
 .left_about {
   text-align: left;
   width: 40%;
-  margin-left: 15rem;
+  padding-left: 15rem;
 }
 
 .right_about {
   text-align: right;
   width: 40%;
-  margin-left: 55rem;
+  padding-left: 55rem;
 }
 
 .card-title {
@@ -160,48 +157,6 @@ p {
 .pr {
   margin-top: 2rem;
   margin-bottom: 2rem;
-}
-
-input, textarea {
-  border: 2px solid darkorchid;
-  border-radius: 15px;
-  margin: 3px;
-  width: 50%;
-  height: 40px;
-  padding: 5px;
-}
-
-textarea {
-  height: 10rem;
-}
-
-.contact_img {
-  margin: 3px;
-  margin-left: 20%;
-}
-
-#name {
-  color: green;
-  font-weight: 600;
-}
-
-#email {
-  color: #FF4136;
-  font-weight: 600;
-}
-
-#msg {
-  font-weight: 600;
-}
-
-#submit_btn {
-  background-color: darkorchid;
-  border-radius: 15px;
-  color: white;
-  font-weight: bold;
-  width: 100px;
-  text-align: center;
-  margin-bottom: 25px;
 }
 
 .desc {
