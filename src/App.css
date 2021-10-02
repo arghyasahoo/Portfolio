@@ -4,10 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-html {
-  width: fit-content;
-}
-
 .App {
   color: white;
   text-align: center;
