@@ -17,17 +17,19 @@ class Intro extends Component {
                     <br />
                     <br />
                     <div class="buttons">
-                        <button class="blob-btn">
-                            Download CV
-                            <span class="blob-btn__inner">
-                                <span class="blob-btn__blobs">
-                                    <span class="blob-btn__blob"></span>
-                                    <span class="blob-btn__blob"></span>
-                                    <span class="blob-btn__blob"></span>
-                                    <span class="blob-btn__blob"></span>
+                        <a href="/files/resume.pdf" download="Arghya's Resume.pdf">
+                            <button class="blob-btn">
+                                Download CV
+                                <span class="blob-btn__inner">
+                                    <span class="blob-btn__blobs">
+                                        <span class="blob-btn__blob"></span>
+                                        <span class="blob-btn__blob"></span>
+                                        <span class="blob-btn__blob"></span>
+                                        <span class="blob-btn__blob"></span>
+                                    </span>
                                 </span>
-                            </span>
-                        </button>
+                            </button>
+                        </a>
                         <br />
                         <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
                             <defs>
@@ -42,7 +44,7 @@ class Intro extends Component {
                         <br />
                     </div>
                 </div>
-            </React.Fragment>
+            </React.Fragment >
         );
     }
 }
