@@ -4,9 +4,9 @@ class Contact extends Component {
     render() {
         return (
             <a class="mailto" href="mailto:ctf.bcdehl@gmail.com">
-                <div class="container-contact100-form-btn">
-                    <button class="contact100-form-btn">
-                        Send E-mail
+                <div class="container-send_email">
+                    <button class="send_email">
+                        Get in Touch
                     </button>
                 </div>
             </a>

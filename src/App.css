@@ -388,7 +388,7 @@ p {
 
 
 /* Send E-mail Button */
-.container-contact100-form-btn {
+.container-send_email {
   width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -401,7 +401,7 @@ p {
 }
 
 
-.contact100-form-btn {
+.send_email {
   width: 10%;
   height: 60px;
   border-radius: 30px;
@@ -427,7 +427,8 @@ p {
   transition: all 0.4s;
 }
 
-.contact100-form-btn:hover {
+.send_email:hover {
   width: 15%;
-  background: #15ba13;
+  background: #ff3636;
 }
+
