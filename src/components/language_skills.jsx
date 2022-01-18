@@ -10,7 +10,7 @@ class LanguageSkills extends Component {
             <React.Fragment>
                 <div className="container-fluid">
                     {/* Python */}
-                    <div class="card m-2" style={this.props}>
+                    <div class="card m-2" id="python" style={this.props}>
                         <img class="card-img" src={process.env.PUBLIC_URL + 'img/python-512.png'} alt="python logo" />
                         <div class="card-img-overlay text-white">
                             <h2 class="card-title">Python</h2>

@@ -201,18 +201,8 @@ p {
 .card:hover {
   transition: .4s ease;
   background-color: rgba(0,0,0,0.7);
-  transform: translateY(-50px);
-  
-  /*TODO: Make each section it's own color: backend, frontend, languages and others*/
-  box-shadow:
-    inset 0 0 10px whitesmoke,
-    inset 10px 0 60px #f0f,
-    inset -10px 0 60px #0ff,
-    inset 10px 0 30px #f0f,
-    inset -10px 0 30px #0ff,
-    0 0 20px #fff,
-    -20px 0 30px #f0f,
-    20px 0 30px #0ff;
+  transform: translateY(-20px);  
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px, rgba(40, 235, 33, 0.3) 0px 0px 0px 3px;
 }
 
 .about_heading {
