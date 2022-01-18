@@ -1,6 +1,7 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
@@ -8,7 +9,7 @@
   color: white;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);
+  background-color: #12181b;  
 }
 
 .App-logo {
@@ -92,10 +93,20 @@ h3 {
 
 .port_name {
   font-size: 5vw;
+  background-image: linear-gradient(90deg, #FF9259, #FF2175);
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 .course {
   font-size: 3vw;
+}
+
+.developer {
+  background-image: linear-gradient(90deg, #FA8142 , #FF4088);
+  padding: 0 10px;
+  border-radius: 3px;
 }
 
 .greeting, .course, .port_name {
@@ -107,13 +118,59 @@ p {
 }
 
 #para_name {
-  color: #f9ff3d;
   font-weight: 700;
+  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 #para_course {
-  color: #49fc03;
   font-weight: 700;
+  background-image: linear-gradient(90deg, #FF9259, #FF2175);
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+#linux {
+  font-weight: 700;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+}
+
+#dl {
+  font-weight: 700;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+}
+
+#ml {
+  font-weight: 700;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(90deg, #85FFBD 0%, #FFFB7D 100%);
+}
+
+#ai {
+  font-weight: 700;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+}
+
+#sec {
+  font-weight: 700;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(90deg, #FFE53B 0%, #FF2525 74%);
 }
 
 .left_about {
@@ -138,10 +195,28 @@ p {
   background-color: rgba(0,0,0,0.2);
   padding: 5rem;
   width: 300px;
+  transition: .4s ease;
+}
+
+.card:hover {
+  transition: .4s ease;
+  background-color: rgba(0,0,0,0.7);
+  transform: translateY(-50px);
+  
+  /*TODO: Make each section it's own color: backend, frontend, languages and others*/
+  box-shadow:
+    inset 0 0 10px whitesmoke,
+    inset 10px 0 60px #f0f,
+    inset -10px 0 60px #0ff,
+    inset 10px 0 30px #f0f,
+    inset -10px 0 30px #0ff,
+    0 0 20px #fff,
+    -20px 0 30px #f0f,
+    20px 0 30px #0ff;
 }
 
 .about_heading {
-  font-family: 'Gemunu Libre', sans-serif;
+  font-family: 'Exo', 'Gemunu Libre', sans-serif;
   border-bottom: 2px solid currentColor;
   display: inline-block;
   line-height: 0.85;

@@ -12,7 +12,7 @@ class Intro extends Component {
                     <h1 className='port_name'>Arghya Sahoo</h1>
                     <br />
                     <h1 className='greeting'>I am a</h1>
-                    <h1 className='display-4 course'>Software Developer</h1>
+                    <h1 className='display-4 course'>Software <span class="developer">Developer</span></h1>
                     <br />
                     <br />
                     <br />
