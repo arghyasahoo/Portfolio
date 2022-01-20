@@ -6,26 +6,26 @@ class Intro extends Component {
         return (
             <React.Fragment>
                 <div className='container-fluid intro'>
-                    <div className='pt-5'>
+                    <div className='main-content'>
+                        <h1 id="hi" className='greeting'>Hello, I am</h1>
+                        <h1 className='port_name'>Arghya Sahoo</h1>
+                        <br />
+                        <h1 className='greeting'>I am a</h1>
+                        <h1 className='display-4 course'>Software <span className="developer">Developer</span></h1>
+                        <br />
+                        <br />
+                        <br />
                     </div>
-                    <h1 className='greeting'>Hello, I am</h1>
-                    <h1 className='port_name'>Arghya Sahoo</h1>
-                    <br />
-                    <h1 className='greeting'>I am a</h1>
-                    <h1 className='display-4 course'>Software <span class="developer">Developer</span></h1>
-                    <br />
-                    <br />
-                    <br />
-                    <div class="buttons">
+                    <div className="buttons">
                         <a href="/files/resume.pdf" download="Arghya's Resume.pdf">
-                            <button class="blob-btn">
+                            <button className="blob-btn">
                                 Download CV
-                                <span class="blob-btn__inner">
-                                    <span class="blob-btn__blobs">
-                                        <span class="blob-btn__blob"></span>
-                                        <span class="blob-btn__blob"></span>
-                                        <span class="blob-btn__blob"></span>
-                                        <span class="blob-btn__blob"></span>
+                                <span className="blob-btn__inner">
+                                    <span className="blob-btn__blobs">
+                                        <span className="blob-btn__blob"></span>
+                                        <span className="blob-btn__blob"></span>
+                                        <span className="blob-btn__blob"></span>
+                                        <span className="blob-btn__blob"></span>
                                     </span>
                                 </span>
                             </button>

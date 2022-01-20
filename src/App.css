@@ -44,6 +44,17 @@
   background-color: rgba(0,0,0,0.2);
 }
 
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  background-image: linear-gradient(90deg, #FF9259, #FF2175) !important;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
 .fa-bars {
   color: white;
 }
@@ -85,6 +96,11 @@ h3 {
 
 .intro {
   padding-top: 8%;
+  height: 100vh;
+}
+
+#hi {
+  margin-top: 10vh;
 }
 
 .greeting {

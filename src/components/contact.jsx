@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 class Contact extends Component {
     render() {
         return (
-            <a class="mailto" href="mailto:ctf.bcdehl@gmail.com">
-                <div id="contact" class="container-send_email">
-                    <button class="send_email">
+            <a className="mailto" href="mailto:ctf.bcdehl@gmail.com">
+                <div id="contact" className="container-send_email">
+                    <button className="send_email">
                         Get in Touch
                     </button>
                 </div>
