@@ -99,6 +99,10 @@ h3 {
   height: 100vh;
 }
 
+.buttons {
+  margin-top: 130px !important;
+}
+
 #hi {
   margin-top: 10vh;
 }
@@ -143,7 +147,7 @@ p {
 
 #para_course {
   font-weight: 700;
-  background-image: linear-gradient(90deg, #FF9259, #FF2175);
+  background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
   -webkit-background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
@@ -154,7 +158,7 @@ p {
   -webkit-background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+  background-image: linear-gradient(90deg, #FF9259, #FF2175);
 }
 
 #dl {
