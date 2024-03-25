@@ -11,33 +11,25 @@ class OtherSkills extends Component {
                 <div className='container-fluid'>
                     {/* Linux */}
                     <div className="card m-2" style={this.props}>
-                        <img className="card-img" src={process.env.PUBLIC_URL + 'img/linux-512.png'} alt="python logo" />
+                        <img className="card-img" src={process.env.PUBLIC_URL + 'img/linux-512.png'} alt="linux icon" />
                         <div className="card-img-overlay text-white">
                             <h2 className="card-title">Linux</h2>
                         </div>
                     </div>
 
-                    {/* Arduino */}
+                    {/* Git */}
                     <div className="card m-2" style={this.props}>
-                        <img className="card-img" src={process.env.PUBLIC_URL + 'img/arduino-512.png'} alt="python logo" />
+                        <img className="card-img" src={process.env.PUBLIC_URL + 'img/git.png'} alt="git icon" />
                         <div className="card-img-overlay text-white">
-                            <h2 className="card-title">Arduino</h2>
+                            <h2 className="card-title">Git</h2>
                         </div>
                     </div>
 
-                    {/* Blockchain */}
+                    {/* JS7 */}
                     <div className="card m-2" style={this.props}>
-                        <img className="card-img" src={process.env.PUBLIC_URL + 'img/blockchain-512.png'} alt="python logo" />
+                        <img className="card-img" src={process.env.PUBLIC_URL + 'img/JS7.png'} alt="js7 icon" />
                         <div className="card-img-overlay text-white">
-                            <h2 className="card-title">Blockchain</h2>
-                        </div>
-                    </div>
-
-                    {/* Selenium */}
-                    <div className="card m-2" style={this.props}>
-                        <img className="card-img" src={process.env.PUBLIC_URL + 'img/selenium-512.png'} alt="python logo" />
-                        <div className="card-img-overlay text-white">
-                            <h2 className="card-title">Selenium</h2>
+                            <h2 className="card-title">JS7 Job Scheduler</h2>
                         </div>
                     </div>
                 </div>

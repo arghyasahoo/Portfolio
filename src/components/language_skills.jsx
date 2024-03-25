@@ -11,7 +11,7 @@ class LanguageSkills extends Component {
                 <div className="container-fluid">
                     {/* Python */}
                     <div className="card m-2" id="python" style={this.props}>
-                        <img className="card-img" src={process.env.PUBLIC_URL + 'img/python-512.png'} alt="python logo" />
+                        <img className="card-img" src={process.env.PUBLIC_URL + 'img/python-512.png'} alt="python icon" />
                         <div className="card-img-overlay text-white">
                             <h2 className="card-title">Python</h2>
                         </div>
@@ -19,7 +19,7 @@ class LanguageSkills extends Component {
 
                     {/* C */}
                     <div className="card m-2" style={this.props}>
-                        <img className="card-img" src={process.env.PUBLIC_URL + 'img/c-512.png'} alt="c logo" />
+                        <img className="card-img" src={process.env.PUBLIC_URL + 'img/c-512.png'} alt="c icon" />
                         <div className="card-img-overlay text-white">
                             <h2 className="card-title">C</h2>
                         </div>
@@ -27,9 +27,17 @@ class LanguageSkills extends Component {
 
                     {/* Java */}
                     <div className="card m-2" style={this.props}>
-                        <img className="card-img" src={process.env.PUBLIC_URL + 'img/java-512.png'} alt="python logo" />
+                        <img className="card-img" src={process.env.PUBLIC_URL + 'img/java-512.png'} alt="python icon" />
                         <div className="card-img-overlay text-white">
                             <h2 className="card-title">Java</h2>
+                        </div>
+                    </div>
+
+                    {/* Bash Shell Script */}
+                    <div className="card m-2" style={this.props}>
+                        <img className="card-img" src={process.env.PUBLIC_URL + 'img/bash.png'} alt="bash icon" />
+                        <div className="card-img-overlay text-white">
+                            <h2 className="card-title">Bash Script</h2>
                         </div>
                     </div>
                 </div>

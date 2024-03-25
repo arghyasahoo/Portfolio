@@ -33,11 +33,11 @@ class Footer extends Component {
 
                     </div>
 
-                    <hr />
+                    {/* <hr />
                     <div className="text-center p-3">
                         © 2021 Copyright:
                         <a className="text-white" href="https://www.github.com/arghyasahoo">Arghya Sahoo</a>
-                    </div>
+                    </div> */}
 
                 </footer>
             </React.Fragment>
